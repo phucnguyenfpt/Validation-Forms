@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #333;
+    font-size: 62.5%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main {
+    background: #f1f1f1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    align-self: center;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
+    margin: 24px;
+    min-height: 100px;
+    padding: 32px 24px;
+    text-align: center;
+    width: 360px;
+}
+
+.form .heading {
+    font-size: 2rem;
+}
+
+.form .description {
+    color: #636d77;
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    font-weight: 300;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.form-lable,
+.form-message {
+    text-align: left;
+}
+
+.form-lable {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    padding-bottom: 6px;
+}
+
+.form-control {
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    font-size: 1.4rem;
+    height: 40px;
+    padding: 8px 12px;
+    outline: none;
+    /* margin-left: 5px; */
+}
+
+.form-control:hover {
+    border-color: #1dbfaf;
+}
+
+.gender-control {
+    margin-top: 8px;
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gender-group {
+    position: relative;
+    margin-left: -40px;
+} 
+
+.gender-group .gender {
+    position: absolute;
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-top: -1px;
+    margin-left: 5px;
+}
+
+.form-group.invalid .form-control {
+    border-color: #f33a58;
+}
+
+.form-group.invalid .form-message {
+    color: #f33a58;
+}
+
+.form-message {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 4px 0 0;
+}
+
+.form-submit {
+    background-color: #1dbfaf;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 12px;
+    padding: 12px 16px;
+    outline: none;
+    width: 100%;
+    font-size: 1.6rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    opacity: 0.9;
+    /* background-color: #1ac7b6; */
+}
+
+.spacer {
+    margin-top: 36px;
+  }
